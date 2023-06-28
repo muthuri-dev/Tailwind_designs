@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`flex flex-col bg-zinc-900 border-2 border-green-500 h-screen rounded-lg ${inter.className}`}>
         <Navbar />
-        <div className="border-2 border-pink-950 flex flex-row flex-1">
+        <div className="flex flex-row flex-1">
           <SideView />
           {children}
         </div>
