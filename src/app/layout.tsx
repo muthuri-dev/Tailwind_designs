@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-zinc-900 border-2 border-green-500 h-screen rounded-lg ${inter.className}`}>
+      <body className={`flex flex-col bg-zinc-900 border-2 border-green-500 h-screen rounded-lg ${inter.className}`}>
         <Navbar />
-        <div className="border-2 border-blue-500">
+        <div className="border-2 border-pink-950 flex flex-row flex-1">
           <SideView />
           {children}
         </div>

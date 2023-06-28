@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function SideView() {
   return (
-    <div class>This is the side view</div>
+    <div className='border-2 border-blue-500'>This is the side view</div>
   )
 }
