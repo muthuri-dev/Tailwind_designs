@@ -13,7 +13,7 @@ import { BiSearch } from "react-icons/bi";
 export default function Navbar() {
   const [search, setSearch] = React.useState<string>("");
   return (
-    <div className="p-4 flex justify-between">
+    <div className="p-4 flex justify-between min-w-full sticky z-50 top-0 bg-zinc-900">
       <div className="flex items-center gap-6">
         <HiOutlineMenu size={26} />
         <div className="flex items-center gap-1">
